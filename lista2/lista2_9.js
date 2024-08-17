@@ -11,18 +11,18 @@ if (a1 <= n3) {
 }
 
 let a2 = n1;
-if (a2 <= n2 & a2 < a1) {
+if (a2 >= n2 & n2 < a1) {
   a2 = n2;
 }
-if (a2 <= n3 & a2 < a1) {
+if (a2 >= n3 & n3 < a1) {
   a2 = n3;
 }
 
 let a3 = n1;
-if (a3 <= n2 & a3 < a2) {
+if (a3 >= n2 & n2 < a2) {
   a3 = n2;
 }
-if (a3 <= n3 & a3 < a2) {
+if (a3 >= n3 & n3 < a2) {
   a3 = n3;
 }
 
